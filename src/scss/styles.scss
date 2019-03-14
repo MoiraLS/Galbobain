@@ -2,7 +2,8 @@
 
 @import "config/colors.scss";
 @import "config/fonts.scss";
-@import "config/size.scss";
 @import "config/mixins.scss";
+
+@import "global/layout.scss";
 
 @import "blocs/header.scss";

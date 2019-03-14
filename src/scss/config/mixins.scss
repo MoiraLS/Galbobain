@@ -1,0 +1,17 @@
+@mixin title1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+@mixin title2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.025em;
+  font-weight: bold;
+}
+
+@mixin title3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95em;
+  font-weight: normal;
+}

@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Galbobain - Rideau de douche en lin Blanc</title>
   <link rel="stylesheet" href="scss/styles.scss">
+  <link rel="shortcut icon" type="image/png" href="./img/favicon.ico" />
 </head>
 
 <body>
@@ -49,15 +50,29 @@
       </ul>
     </div>
 
-    <div class="product__picture picture">
-      <img class="pic1" src="./img/produit1.jpg" alt="Photo Produit">
-      <img class="pic2" src="./img/produit2.png" alt="Photo Produit">
-      <img class="pic3" src="./img/produit3.jpg" alt="Photo Produit">
-      <img class="pic4" src="./img/produit4.jpg" alt="Photo Produit">
-      <img class="pic5" src="./img/produit5.png" alt="Photo Produit">
-    </div>
+    <section class="slider">
+      <div class="slider__slides">
+        <img class="slider__slide" src="./img/produit1.jpg">
+        <img class="slider__slide" src="./img/produit2.png">
+        <img class="slider__slide" src="./img/produit3.jpg">
+        <img class="slider__slide" src="./img/produit4.jpg">
+        <img class="slider__slide" src="./img/produit5.png">
+      </div>
+      <svg class="slider__arrow slider__arrow--left" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+        xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+        <path d="m64.5,122.6c32,0 58.1-26 58.1-58.1s-26-58-58.1-58-58,26-58,58 26,58.1 58,58.1zm0-108c27.5,5.32907e-15 49.9,22.4 49.9,49.9s-22.4,49.9-49.9,49.9-49.9-22.4-49.9-49.9 22.4-49.9 49.9-49.9z" />
+        <path d="m70,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2 1.6-1.6 1.6-4.2 0-5.8l-23.5-23.5 23.5-23.5c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-26.4,26.4c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2.1 1.2,2.9l26.4,26.4z" />
+      </svg>
+      <svg class="slider__arrow slider__arrow--right" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129 129"
+        xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 129 129">
+        <path d="m64.5,122.6c32,0 58.1-26 58.1-58.1s-26-58-58.1-58-58,26-58,58 26,58.1 58,58.1zm0-108c27.5,5.32907e-15 49.9,22.4 49.9,49.9s-22.4,49.9-49.9,49.9-49.9-22.4-49.9-49.9 22.4-49.9 49.9-49.9z" />
+        <path d="m70,93.5c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2 1.6-1.6 1.6-4.2 0-5.8l-23.5-23.5 23.5-23.5c1.6-1.6 1.6-4.2 0-5.8s-4.2-1.6-5.8,0l-26.4,26.4c-0.8,0.8-1.2,1.8-1.2,2.9s0.4,2.1 1.2,2.9l26.4,26.4z" />
+      </svg>
+    </section>
 
   </section>
+
+  <script src="./js/slider.js"></script>
 
 </body>
 

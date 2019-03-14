@@ -1,0 +1,42 @@
+.slider {
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+  top: 20vh;
+  left: 15vw;
+
+  .slider__slides {
+    display: flex;
+    transition: transform 500ms;
+
+    .slider__slide {
+      width: 400px;
+      height: 300px;
+      object-fit: cover;
+    }
+  }
+
+  .slider__arrow {
+    fill: $blue;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .slider__arrow--left {
+    left: 0.3125em;
+  }
+
+  .slider__arrow--right {
+    right: 0.3125em;
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+}

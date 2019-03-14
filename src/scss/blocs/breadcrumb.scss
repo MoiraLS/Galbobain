@@ -13,6 +13,11 @@
     .item {
       margin: 0.625em;
     }
+    
+    .item--space:before{
+      content: "\203A";
+      padding: 0 1em 0 0;
+    }
   }
 
   .item--opacity {

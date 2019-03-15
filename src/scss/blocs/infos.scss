@@ -1,8 +1,6 @@
 .infos {
-  position: relative;
-  top: -22vh;
-  left: 55vw;
   width: 40vw;
+  margin-left: 10vh;
   @include font;
 
   .infos__title {
@@ -19,10 +17,29 @@
   .infos__text .brand {
     color: $blue;
   }
+}
 
-  .infos__stock {
-    position: relative;
-    bottom: 3vh;
-    left: 25vw;
+.buy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+
+  .buy__add {
+    background: linear-gradient(#000000, #3D3F40);
+    border-radius: 8px;
+    color: $white;
+    height: 5vh;
+    width: 15vw;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .buy__price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: $blue;
   }
 }

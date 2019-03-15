@@ -1,12 +1,13 @@
 .breadcrumb {
-  position: absolute;
-  top: 15vh;
-  left: 15vw;
+  display: flex;
+  align-items: center;
+  height: 10vh;
   @include small-text;
 
   .breadcrumb__item {
     display: flex;
     flex-direction: row;
+    margin-left: 15vw;
 
     .item {
       margin: 0.625em;

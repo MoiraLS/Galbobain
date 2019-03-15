@@ -4,3 +4,56 @@
   align-items: center;
   height: 50vh;
 }
+
+.product__irl {
+  @include small-text;
+  opacity: 0.6;
+  margin-top: 1.25em;
+  text-align: center;
+}
+
+.infos {
+  width: 40vw;
+  margin-left: 10vh;
+  @include font;
+
+  .infos__title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  p {
+    margin-bottom: 0.4em;
+    font-size: 0.875em;
+  }
+
+  .infos__text .brand {
+    color: $blue;
+  }
+}
+
+.buy {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+
+  .buy__add {
+    background: linear-gradient(#000000, #3D3F40);
+    border-radius: 8px;
+    color: $white;
+    height: 5vh;
+    width: 15vw;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .buy__price {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: $blue;
+  }
+}

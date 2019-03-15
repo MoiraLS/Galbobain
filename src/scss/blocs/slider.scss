@@ -36,11 +36,4 @@
     right: 0.3125em;
     transform: translateY(-50%) rotate(180deg);
   }
-
-  .product__view {
-    @include small-text;
-    opacity: 0.6;
-    margin-top: 1.25em;
-    text-align: center;
-  }
 }

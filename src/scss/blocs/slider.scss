@@ -1,5 +1,5 @@
 .slider {
-  width: 400px;
+  width: 500px;
   overflow: hidden;
   position: relative;
   top: 20vh;
@@ -10,7 +10,7 @@
     transition: transform 500ms;
 
     .slider__slide {
-      width: 400px;
+      width: 500px;
       height: 300px;
       object-fit: cover;
     }
@@ -39,4 +39,10 @@
     transform: translateY(-50%) rotate(180deg);
   }
 
+  .product__view {
+    @include small-text;
+    opacity: 0.6;
+    margin-top: 1.25em;
+    text-align: center;
+  }
 }

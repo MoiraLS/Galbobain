@@ -2,10 +2,8 @@
   position: absolute;
   top: 15vh;
   left: 15vw;
-  font-family: "Montserrat", sans-serif;
-  font-size: 0.625em;
-  color: $grey;
-  
+  @include small-text;
+
   .breadcrumb__item {
     display: flex;
     flex-direction: row;
@@ -13,13 +11,13 @@
     .item {
       margin: 0.625em;
     }
-    
-    .item--space:before{
+
+    .item--space:before {
       content: "\203A";
       padding: 0 1em 0 0;
     }
   }
-
+  
   .item--opacity {
     opacity: 0.6;
   }

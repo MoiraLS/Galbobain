@@ -1,0 +1,28 @@
+.infos {
+  position: relative;
+  top: -22vh;
+  left: 55vw;
+  width: 40vw;
+  @include font;
+
+  .infos__title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 0.8em;
+  }
+
+  p {
+    margin-bottom: 0.4em;
+    font-size: 0.875em;
+  }
+
+  .infos__text .brand {
+    color: $blue;
+  }
+
+  .infos__stock {
+    position: relative;
+    bottom: 3vh;
+    left: 25vw;
+  }
+}

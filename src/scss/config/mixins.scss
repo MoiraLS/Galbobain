@@ -6,7 +6,7 @@
 
 @mixin title2 {
   font-family: $family;
-  font-size: 1.025em;
+  font-size: 1.15em;
   font-weight: bold;
 }
 
@@ -19,7 +19,6 @@
 @mixin small-text {
   font-family: $family;
   font-size: 0.625em;
-  font-style: italic;
   color: $grey;
 }
 

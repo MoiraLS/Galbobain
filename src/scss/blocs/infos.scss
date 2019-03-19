@@ -1,0 +1,25 @@
+.more {
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  @include font;
+}
+
+.description__title,
+.technicalSheet__title{
+  @include title2;
+}
+
+.description {
+  p {
+    font-size: 0.875em;
+    margin: 0.5em 0;
+  }
+}
+
+.technicalSheet {
+  p {
+    font-size: 0.875em;
+    margin: 0.5em 0;
+  }
+}

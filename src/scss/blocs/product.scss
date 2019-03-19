@@ -40,20 +40,10 @@
   height: 10vh;
 
   .buy__add {
-    background: linear-gradient(#000000, #3D3F40);
-    border-radius: 8px;
-    color: $white;
-    height: 5vh;
-    width: 15vw;
-
-    &:hover {
-      cursor: pointer;
-    }
+    @include button;
   }
 
   .buy__price {
-    font-size: 1.4em;
-    font-weight: bold;
-    color: $blue;
+    @include price;
   }
 }

@@ -27,3 +27,24 @@
   font-family: $family;
   color: $grey;
 }
+
+@mixin price {
+  font-family: $family;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: $blue;
+}
+
+@mixin button {
+  background: linear-gradient(#000000, #3D3F40);
+  border-radius: 8px;
+  color: $white;
+  font-family: $family;
+  font-size: 1em;
+  height: 7vh;
+  width: 15vw;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

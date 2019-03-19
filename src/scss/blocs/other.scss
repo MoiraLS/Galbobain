@@ -1,0 +1,50 @@
+.other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ECECEC;
+  height: 60vh;
+
+  .other__title {
+    @include font;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .ideas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    width: 90vw;
+  }
+}
+
+.idea {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  width: 20vw;
+  height: 50vh;
+  text-align: center;
+
+  .idea__picture {
+    height: 50%;
+  }
+
+  .idea__title {
+    @include font;
+    font-size: 1em;
+    margin-top: 0.5em;
+  }
+
+  .idea__price {
+    @include price;
+    margin: 0.5em 0;
+  }
+
+  .idea__button {
+    @include button;
+  }
+}

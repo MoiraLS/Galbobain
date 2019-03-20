@@ -13,7 +13,8 @@
 @mixin title3 {
   font-family: $family;
   font-size: 0.95em;
-  font-weight: normal;
+  font-weight: bold;
+  color: $blue;
 }
 
 @mixin small-text {

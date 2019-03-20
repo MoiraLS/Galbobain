@@ -26,6 +26,7 @@
   p {
     margin-bottom: 0.4em;
     font-size: 0.875em;
+    line-height: 1.4em;
   }
 }
 
@@ -46,4 +47,12 @@
   .buy__price {
     @include price;
   }
+}
+
+.try {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0.4em;
 }

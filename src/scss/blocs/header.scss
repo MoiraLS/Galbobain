@@ -51,7 +51,8 @@
     .search__text {
       opacity: 0.6;
       margin-left: 1vh;
-      @include title3;
+      font-family: $family;
+      font-size: 0.95em;
     }
   }
 

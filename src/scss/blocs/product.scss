@@ -56,3 +56,32 @@
   flex-direction: column;
   margin-top: 0.4em;
 }
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+  .quantity__buttons {
+    margin-left: 5%;
+  }
+}
+
+#quantity {
+  width: 10%;
+  text-align: center;
+  border: none;
+}
+
+#less,
+#plus,
+#quantity {
+  background-color: $white;
+  @include font;
+  font-size: 0.8em;
+}
+
+#less,
+#plus {
+  border: solid 0.5px #dddddd;
+}

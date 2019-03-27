@@ -8,7 +8,7 @@ plus.addEventListener('click', function() {
 
 
 less.addEventListener('click', function() {
-  if (input.value > 0) {
+  if (input.value > 1) {
     input.value = Number(input.value) - 1;
  };
 });

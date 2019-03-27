@@ -57,31 +57,31 @@
   margin-top: 0.4em;
 }
 
-.quantity {
+.colors {
   display: flex;
-  flex-direction: row;
   justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 30vw;
 
-  .quantity__buttons {
-    margin-left: 5%;
+  .colors__square {
+    width: 3vw;
+    height: 3vh;
+    border: solid 0.5px #3D3F40;
+    margin: 0 0.5em;
+    opacity: 0.5;
   }
-}
+  
+  .colors__square--white {
+    background-color: #ffffff;
+  }
+  
+  .colors__square--sand {
+    background-color: #ffdfc3;
+  }
 
-#quantity {
-  width: 10%;
-  text-align: center;
-  border: none;
-}
-
-#less,
-#plus,
-#quantity {
-  background-color: $white;
-  @include font;
-  font-size: 0.8em;
-}
-
-#less,
-#plus {
-  border: solid 0.5px #dddddd;
+  .checked {
+    border: #56A7B9 solid 2px;
+    opacity: 1;
+  }
 }
